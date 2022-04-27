@@ -11,4 +11,6 @@ This is meant to fix an issue that occurs on certain maps where an enemy player 
 
 As an additional note, I also tried using the `m_iSpawnRoomTouchCount`as a way to determine if a player is in their spawnroom or not but that too isn't checked for team ownership correctly.
 
+# This requires dhooks
+
 Credit for this goes to **nosoop** and **Psyk0tik**, I just wrote out code for it.
