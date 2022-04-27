@@ -9,7 +9,7 @@ Handle hCheckRespawn = INVALID_HANDLE;
 public Plugin myinfo = 
 {
     name = "Block Instant Respawn",
-    author = "Rowedahelicon",
+    author = "Rowedahelicon (code) / Psyk0tik + nosoop",
     description = "Provides a way to block instant respawns from the load_itempreset command.",
     version = "1.0",
     url = "https://forums.alliedmods.net/showthread.php?p=2770618#post2770618"
