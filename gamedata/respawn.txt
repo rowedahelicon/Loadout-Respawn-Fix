@@ -1,0 +1,19 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"CTFPlayer::CheckInstantLoadoutRespawn"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer26CheckInstantLoadoutRespawnEv"
+			}
+			"PointInRespawnRoom"
+			{
+				"library"	"server"
+				"linux"		"@_Z18PointInRespawnRoomPK11CBaseEntityRK6Vectorb"
+			}
+		}
+	}
+}
