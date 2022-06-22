@@ -1,16 +1,19 @@
 # TF2---Loadout-Respawn-Fix
-A quick attempt at fixing an exploit(?) with the load_itempreset command
 
-This is a lame attempt, but it works, it would probably be more efficient to patch the memory for this function.
+As of 6/21/2022, this bug has been fixed in TF2. https://www.teamfortress.com/post.php?id=139819
 
-The inspiration for this comes from this discussion, https://forums.alliedmods.net/showpost.php?p=2777610&postcount=5.
+~~A quick attempt at fixing an exploit(?) with the load_itempreset command~~
 
-Sure enough, forcing the boolean value to true in the `PointInRespawnRoom` function called in `CTFPlayer::CheckInstantLoadoutRespawn` will ensure that a player must be on the team of a respawn room they are inside or touching. 
+~~This is a lame attempt, but it works, it would probably be more efficient to patch the memory for this function.~~
 
-This is meant to fix an issue that occurs on certain maps where an enemy player can "touch" the resupply room, which allows them to run the command and instantly respawn in their own spawnroom. This is done to spawncamp usually.
+~~The inspiration for this comes from this discussion, https://forums.alliedmods.net/showpost.php?p=2777610&postcount=5.~~
 
-As an additional note, I also tried using the `m_iSpawnRoomTouchCount`as a way to determine if a player is in their spawnroom or not but that too isn't checked for team ownership correctly.
+~~Sure enough, forcing the boolean value to true in the `PointInRespawnRoom` function called in `CTFPlayer::CheckInstantLoadoutRespawn` will ensure that a player must be on the team of a respawn room they are inside or touching. ~~
 
-# This requires dhooks
+~~This is meant to fix an issue that occurs on certain maps where an enemy player can "touch" the resupply room, which allows them to run the command and instantly respawn in their own spawnroom. This is done to spawncamp usually.~~
 
-Credit for this goes to **nosoop** and **Psyk0tik**, I just wrote out code for it.
+~~As an additional note, I also tried using the `m_iSpawnRoomTouchCount`as a way to determine if a player is in their spawnroom or not but that too isn't checked for team ownership correctly.~~
+
+~~# This requires dhooks~~
+
+~~Credit for this goes to **nosoop** and **Psyk0tik**, I just wrote out code for it.~~
