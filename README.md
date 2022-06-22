@@ -1,4 +1,4 @@
-# TF2---Loadout-Respawn-Fix
+# Loadout-Respawn-Fix [SourceMod]
 
 As of 6/21/2022, this bug has been fixed in TF2. https://www.teamfortress.com/post.php?id=139819
 
